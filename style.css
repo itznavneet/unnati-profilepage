@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Poppins:ital,wght@0,400;1,900&family=Rubik+Broken+Fax&display=swap');
+
+body{
+    background-image:url(design-black-background-lh6hd1i0ecusnwzg.jpg) 
+}
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right{
+    display: flex;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+.profile{
+    height: 35vh;
+    width:80vw;
+    background-color:  #EBEBEB;
+    ;
+    border: none;
+    border-radius: 20px;
+
+}
+.resources{
+    height:42vh;
+    width:80vw;
+    background-color:#EBEBEB;
+    ;
+    border: none;
+    border-radius: 20px;
+}
+.heading1 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 5px 8px;
+}
+
+.heading1 img{
+    padding: 10px 5px;
+    width: 5px;
+}
+.heading1 span{
+    font-size: larger;
+    font-weight: 600;
+}
+.id{
+    display: flex;
+    justify-content: right;
+    padding: 0px 15px;
+}
+ .content1{
+    display: flex;
+   
+} 
+.profile_photo img{
+    border: none;
+    border-radius: 50%;
+    width:80px;
+    padding-left: 10px;
+}
+.ques{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.float{
+    position: relative;
+    left: 3%;
+}
+.qs{
+font-size: 12px;
+color: #2F2D2D;
+font-weight: 300;
+ font-family: "Geologica", sans-serif;
+}
+.as{
+    
+    font-size: 15px;
+    color: #2F2D2D;
+    font-weight: 500;
+
+     font-family: "Geologica", sans-serif;
+}
+.black1{
+    display: grid
+    ;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* background-color: red; */
+        height: 25%;
+        column-gap: 15px;
+        width: 86%;
+        justify-content: right;
+        /* align-items: center; */
+        position: relative;
+        left: 35px;
+.bx1{
+   border: none;
+   border-radius:  20px; 
+    background-color: #2A2A2A;
+   display: flex;
+   color: #C3C3C3;
+   align-items: center;
+
+}
+.bx1img img{
+    width: 95%;
+
+}
+
+.bx2img img{
+    width: 80%;
+}
+
+.bx3img img{
+    width: 80%;
+}
+.sp1{
+    margin: 5%;
+}
+.tt1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.tt2{
+    font-size:15px;
+    font-weight: 300;
+}
+.akhiribox{
+    height: 70%;
+    background-color: aqua;
+}
+
+/* @media (max-width : 600px){
+
+} */
