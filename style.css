@@ -101,7 +101,7 @@ font-weight: 300;
         justify-content: right;
         /* align-items: center; */
         position: relative;
-        left: 35px;
+        left: 5%;
 .bx1{
    border: none;
    border-radius:  20px; 
@@ -134,11 +134,10 @@ font-weight: 300;
     font-size:15px;
     font-weight: 300;
 }
-section.resources .akhiribox{
+/* section.resources .lastmaterial{
     height: 70%;
-    width: 70%;
     background-color: aqua;
-}
+} */
 
 /* @media (max-width : 600px){
 
